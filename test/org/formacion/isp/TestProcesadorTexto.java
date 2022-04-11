@@ -10,7 +10,7 @@ public class TestProcesadorTexto {
 	@Test
 	public void test_simple() {
 		
-		ProcesadorTexto procesador = new ProcesadorTexto();
+		IProcesador procesador = new ProcesadorTexto();
 		
 		procesador.nueva("No");
 		procesador.nueva("himporta");
