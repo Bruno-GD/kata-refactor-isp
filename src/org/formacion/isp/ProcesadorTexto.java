@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ProcesadorTexto {
-
-
+public class ProcesadorTexto implements IProcesador, ICorrector {
 	private List<String> texto = new ArrayList<>();
 	
 	public void nueva (String palabra) {
